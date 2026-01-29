@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dsort from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsort@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-dsort/tags). For example,
+
+```javascript
 import dsort from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsort@v0.1.0-esm/index.mjs';
 ```
 
@@ -150,7 +155,7 @@ dsort.ndarray( 3, 1.0, x, 1, 3 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import dsort from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsort@v0.1.0-esm/index.mjs';
+import dsort from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsort@esm/index.mjs';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
