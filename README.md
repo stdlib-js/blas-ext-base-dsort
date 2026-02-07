@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dsort from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsort@deno/mod.js';
+import dsort from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsort@v0.1.1-deno/mod.js';
 ```
 
 #### dsort( N, order, x, strideX )
@@ -145,7 +145,7 @@ dsort.ndarray( 3, 1.0, x, 1, 3 );
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import dsort from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsort@deno/mod.js';
+import dsort from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-dsort@v0.1.1-deno/mod.js';
 
 var x = discreteUniform( 10, -100, 100, {
     'dtype': 'float64'
